@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.section1{
+    background-image: url(../images/events-heavenly-header.jpg);    
+    background-size: 100% 100%;    width: auto;
+    height: 660px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.shadoww{
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(214, 46, 51 , 0.6);}
+    .txt{
+        top: 35%;
+    
+    }
+    .txt h3{
+        font-size: 60px;
+        color: white;
+    }
+    .txt p{
+        color: white;
+    }
+    .open{
+        top: 190px;
+        cursor: pointer;
+        position: relative;
+       
+    }
+    .open1{
+        left: 16%;
+        top: 32%;
+        font-size: 30px;
+        color: white;
+        
+display: none;
+
+    }
+    .open p{
+        color: white;
+        font-size: 30px;
+    }
+   
+    ul{
+        list-style-type: none
+    }
+    .X{
+        left: 75%;
+        
+    }
+    li{
+        padding-top: 20px;
+    }
+
+
+     .yy{
+        font-size: 30px;
+        color: white;
+        left:110%;
+     }
+     .links{
+        width: 0%;
+        height: 100vh;
+        position: fixed;
+        background-color: #111;
+                z-index: 1;
+        top: 0;
+        display: none;
+        bottom: 0;
+     }
+     .links a{
+        color: white;
+     }
+     .links a:hover{
+        color: rgba(214, 46, 51 , 0.4);
+     }
+     .section2{
+        background-color: rgba(214, 46, 51 , 0.6);      
+        padding-top: 6px;
+        padding-bottom: 6px;
+        color: white;
+        font-size: 25px;
+     }
+     
+ .section2 p{
+    background-color: #ccc;
+    font-size: 16px;
+    color: black;
+ }
+ .text {
+    display: none;
+
+ }
+
+ .pointer{
+    cursor: pointer;
+ }
+ .section3{
+    height: 300px;
+    background-image: url(../images/invitation-2508607__340.jpg);
+    background-size: 100% 100%; 
+    background-position: center center;
+    background-repeat: no-repeat;
+ }
+.C_D{
+    height: 150px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    padding-top: 45px;
+}
+.sec3{
+top: 60px;
+width: 78%;
+margin: auto;}
+
+
+
+.section4{
+    width: 78%;
+    margin: auto;
+    margin-top: 12%;
+    height: 700px;
+}
+.form-control {
+border-radius : 0;
+height: 50px;
+}
+.text_area{
+    height: 150px;
+}
+.btn{
+    border-radius: 0;
+    padding:10px 20px 10px 20px;
+}
+.icons{
+    cursor: pointer;
+}
+.icons:hover{
+    background-color: rgba(214, 35, 35, 0.856);
+}
+.icons:hover i{
+    color: white;
+}
+.try{
+    background-color: teal;
+    width: 0%;
+    height: 100vh;
+    display: none;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    bottom: 0;
+}
